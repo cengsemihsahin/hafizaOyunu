@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- @AUTHOR 2017123037 SAHIN SEMIH -->
+<html>
+
+	<head>
+	
+		<meta charset = "UTF-8">
+		<title>HW4 - HAFIZA OYUNU</title>
+		<link rel = "stylesheet" href = "../css/hafiza_oyunu_css.css">
+	
+	</head>
+	
+	<body>
+	
+		<div class = "anaBolme"> <!-- 550x440 + 1040x260 => 1040x700 -->
+		
+			<div class = "bolme1"> <!-- 1040x260 -->
+			
+				<div class = "bolme1_1">
+				
+					<i class = "gecen_sure">Gecen sure: -</i><br>
+					<i class = "hamle_sayisi">Hamle sayisi: -</i><br><br>
+					<i class = "sonuc"></i>
+				
+				</div>
+				
+				<div class = "bolme1_2">
+				
+					<button class = "dugme" onClick = "yapiyiCalistir()">Yeniden karistir</button>
+					<br>
+					<button class = "dugme2" onClick = "oyunuDurumu()"><i class = "dugme2_yazi">Oyunu baslat</i></button>
+				
+				</div>
+			
+			</div>
+			
+			<div class = "bolme2"> <!-- 1040x440 -->
+			
+				<div class = "bolme3"> <!-- 550x440 OYUN BOLUMU -->
+				
+					<div class = "resimler" data-framework = "1">
+						<img class = "acik" src = "../assets/resim1.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "1">
+						<img class = "acik" src = "../assets/resim1.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "2">
+						<img class = "acik" src = "../assets/resim2.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "2">
+						<img class = "acik" src = "../assets/resim2.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "3">
+						<img class = "acik" src = "../assets/resim3.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "3">
+						<img class = "acik" src = "../assets/resim3.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "4">
+						<img class = "acik" src = "../assets/resim4.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "4">
+						<img class = "acik" src = "../assets/resim4.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "5">
+						<img class = "acik" src = "../assets/resim5.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "5">
+						<img class = "acik" src = "../assets/resim5.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "6">
+						<img class = "acik" src = "../assets/resim6.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "6">
+						<img class = "acik" src = "../assets/resim6.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "7">
+						<img class = "acik" src = "../assets/resim7.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "7">
+						<img class = "acik" src = "../assets/resim7.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "8">
+						<img class = "acik" src = "../assets/resim8.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "8">
+						<img class = "acik" src = "../assets/resim8.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "9">
+						<img class = "acik" src = "../assets/resim9.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "9">
+						<img class = "acik" src = "../assets/resim9.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					
+					<div class = "resimler" data-framework = "10">
+						<img class = "acik" src = "../assets/resim10.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+					<div class = "resimler" data-framework = "10">
+						<img class = "acik" src = "../assets/resim10.svg">
+						<img class = "kapali" src = "../assets/kapali.svg">
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<script src = "../js/hafiza_oyunu_script.js"></script>
+	
+	</body>
+
+</html>
